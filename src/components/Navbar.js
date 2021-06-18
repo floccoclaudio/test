@@ -24,10 +24,10 @@ function Header() {
         <OptionLineOne>Orders</OptionLineOne>
 
         <HeaderOptionCart>
-          {/* <Link to="/cart"> */}
-          {/* <ShoppingBasketIcon /> */}
-          <CartCount>4{/* getCount() */}</CartCount>
-          {/* </Link> */}
+          <Link to="/cart">
+            {/* <ShoppingBasketIcon /> */}
+            <CartCount>4{/* getCount() */}</CartCount>
+          </Link>
         </HeaderOptionCart>
       </HeaderNavItems>
     </Container>
